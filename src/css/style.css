@@ -1,0 +1,25 @@
+body {
+  background: #333;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
