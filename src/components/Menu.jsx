@@ -28,7 +28,7 @@ const pizzas = [
 
   function Menu() {
     return (
-      <div className="container py-5">
+      <div className="container py-5" id="menu">
   
         <h2 className="text-white mb-4">
           Our Menu

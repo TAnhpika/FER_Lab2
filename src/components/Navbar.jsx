@@ -10,24 +10,24 @@ function Navbar() {
           <button
             className="navbar-toggler"
             data-bs-toggle="collapse"
-            data-bs-target="#menu"
+            data-bs-target="#navbarMenu"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
   
-          <div className="collapse navbar-collapse" id="menu">
+          <div className="collapse navbar-collapse" id="navbarMenu">
   
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#">Home</a>
+                <a className="nav-link" href="#pizzaCarousel">Home</a>
               </li>
   
               <li className="nav-item">
-                <a className="nav-link" href="#">About Us</a>
+                <a className="nav-link" href="#menu">Menu</a>
               </li>
   
               <li className="nav-item">
-                <a className="nav-link" href="#">Contact</a>
+                <a className="nav-link" href="#booking">Contact</a>
               </li>
             </ul>
   

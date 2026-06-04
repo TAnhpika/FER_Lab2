@@ -1,6 +1,6 @@
 function Booking() {
     return (
-      <div className="container py-5">
+      <div className="container py-5" id="booking">
   
         <h2 className="text-center text-white mb-4">
           Book Your Table
